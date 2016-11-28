@@ -1,0 +1,1 @@
+Playing around with the Spotify Api, AWS Lambda, React-Redux, and algorithms.
