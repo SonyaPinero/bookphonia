@@ -4,7 +4,7 @@
   "description": "Playing around with the Spotify Api, AWS Lambda, React-Redux, and algorithms.",
   "scripts": {
     "clean": "rm -rf ./build",
-    "public": "mkdir ./build ; cp -r ./public ./build/public",
+    "public": "mkdir ./build ; cp -r ./src/public ./build/public",
     "build": "node ./node_modules/webpack/bin/webpack.js --config ./webpack.config.js",
     "serve": "node ./node_modules/nodemon/bin/nodemon.js ./build/server.js",
     "watch": "node ./node_modules/webpack/bin/webpack.js --config ./webpack.config.js --watch",

@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 
 module.exports = [{
-  entry: ['babel-polyfill', __dirname + '/server.js'],
+  entry: ['babel-polyfill', __dirname + '/src/server.js'],
   output: {
     path: __dirname + '/build',
     libraryTarget: 'commonjs2',
@@ -31,7 +31,7 @@ module.exports = [{
   plugins: []
 },
 {
-  entry: ['babel-polyfill', __dirname + '/app.js'],
+  entry: ['babel-polyfill', __dirname + '/src/app.js'],
   output: {
     path: __dirname + '/build/public',
     filename: 'app.js'
