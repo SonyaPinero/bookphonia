@@ -2,7 +2,6 @@
   "name": "bookphonia",
   "version": "1.0.0",
   "description": "Playing around with the Spotify Api, AWS Lambda, React-Redux, and algorithms.",
-  "main": "app.js",
   "scripts": {
     "clean": "rm -rf ./build",
     "public": "mkdir ./build ; cp -r ./public ./build/public",
@@ -13,16 +12,6 @@
     "start": "npm run public & npm run build",
     "poststart": "npm run watch & npm run serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SonyaPinero/bookphonia.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SonyaPinero/bookphonia/issues"
-  },
-  "homepage": "https://github.com/SonyaPinero/bookphonia#readme",
   "dependencies": {
     "aws-sdk": "^2.7.7",
     "babel-cli": "^6.18.0",
