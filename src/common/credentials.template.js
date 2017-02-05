@@ -1,12 +1,7 @@
 exports.aws = {
-  zone: 'us-east-1a',
+  zone: '',
   accessKeyId: '',
   secretAccessKey: ''
-};
-
-exports.mysql = {
-  username: '',
-  password: ''
 };
 
 exports.spotify = {
