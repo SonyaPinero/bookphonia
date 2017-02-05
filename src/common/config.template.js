@@ -1,12 +1,15 @@
 import credentials from './credentials';
 
-exports.aws = {
-  zone: aws.credentials.zone,
-  accessKeyId: aws.credentials.accessKeyId,
-  secretAccessKey: aws.credentials.secretAccessKey
-};
-
-exports.spotify = {
-  clientId: spotify.credentials.clientId,
-  clientSecret: spotify.credentials.clientSecret
+export default {
+  aws: {
+    zone: credentials.aws.zone,
+    accessKeyId: credentials.aws.accessKeyId,
+    secretAccessKey: credentials.aws.secretAccessKey
+  },
+  spotify: {
+    clientId: credentials.spotify.clientId,
+    clientSecret: credentials.spotify.clientSecret,
+    token: credentials.spotify.token,
+    baseURL: 'https://api.spotify.com'
+  }
 };
