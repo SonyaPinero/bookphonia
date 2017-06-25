@@ -1,7 +1,7 @@
 {
   "name": "bookphonia",
   "version": "1.0.0",
-  "description": "Playing around with the Spotify Api, AWS Lambda, React-Redux, and algorithms.",
+  "description": "Playing around with the Spotify Api, React-Redux, and algorithms.",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && webpack -p",
