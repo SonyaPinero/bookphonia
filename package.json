@@ -3,8 +3,20 @@
   "version": "1.0.0",
   "description": "Playing around with the Spotify Api, AWS Lambda, React-Redux, and algorithms.",
   "scripts": {},
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.15.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "redux": "^3.7.0"
+  },
   "devDependencies": {
-    "webpack": "^2.6.1"
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.5.0"
   }
 }
